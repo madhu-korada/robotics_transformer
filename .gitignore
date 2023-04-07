@@ -2,9 +2,10 @@
 *.pyc
 
 # Byte-compiled
-_pycache__/
+__pycache__/
 .cache/
-
+*/__pycache__/
+*/*/__pycache__/
 # Poetry, setuptools, PyPI distribution artifacts.
 /*.egg-info
 .eggs/

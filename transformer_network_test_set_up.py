@@ -25,6 +25,11 @@ import tensorflow as tf
 from tf_agents.specs import tensor_spec
 from tf_agents.trajectories import time_step as ts
 
+from typing import Tuple, Union
+from typing import Optional
+from typing import List as list
+# from typing import Dict as dict
+
 BATCH_SIZE = 2
 TIME_SEQUENCE_LENGTH = 3
 HEIGHT = 256
